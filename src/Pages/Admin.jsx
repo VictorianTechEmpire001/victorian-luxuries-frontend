@@ -825,7 +825,7 @@ const Admin = () => {
                   type="text"
                   value={newProduct.image}
                   onChange={e => setNewProduct(prev => ({ ...prev, image: e.target.value }))}
-                  placeholder="/src/assets/images/watches/mens/mens-1.jpg"
+                  placeholder="/images/watches/mens/mens-1.jpg"
                   className="w-full bg-black border border-gray-600 text-white placeholder-gray-600 rounded px-4 py-3 text-sm focus:outline-none focus:border-yellow-500 transition"
                 />
               </div>

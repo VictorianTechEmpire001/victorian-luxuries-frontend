@@ -7,11 +7,11 @@ import { useState } from 'react'
 const API_URL = 'https://victorian-luxuries-backend.onrender.com'
 
 const collections = [
-  { name: "Men's Watches", category: "mens", image: "/src/assets/images/watches/mens/mens-1.jpg" },
-  { name: "Women's Watches", category: "womens", image: "/src/assets/images/watches/womens/womens-1.jpg" },
-  { name: "Luxury Watches", category: "luxury", image: "/src/assets/images/watches/luxury/luxury-1.jpg" },
-  { name: "Smartwatches", category: "smart", image: "/src/assets/images/watches/smart/smart-1.jpg" },
-  { name: "Kids Watches", category: "kids", image: "/src/assets/images/watches/kids/kids-1.jpg" },
+  { name: "Men's Watches", category: "mens", image: "/images/watches/mens/mens-1.jpg" },
+  { name: "Women's Watches", category: "womens", image: "/images/watches/womens/womens-1.jpg" },
+  { name: "Luxury Watches", category: "luxury", image: "/images/watches/luxury/luxury-1.jpg" },
+  { name: "Smartwatches", category: "smart", image: "/images/watches/smart/smart-1.jpg" },
+  { name: "Kids Watches", category: "kids", image: "/images/watches/kids/kids-1.jpg" },
 ]
 
 const Home = () => {
@@ -156,7 +156,7 @@ const Home = () => {
       <section className="relative py-16 md:py-20 lg:py-24 overflow-hidden">
 
         <img
-          src="/src/assets/images/watches/hero.jpg"
+          src="/images/watches/hero.jpg"
           alt="New Arrivals"
           className="absolute inset-0 w-full h-full object-cover"
         />
