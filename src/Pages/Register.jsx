@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import registerBg from '../assets/images/watches/hero.jpg'
 
-const API_URL = 'http://localhost:5000'
+const API_URL = 'https://victorian-luxuries-backend.onrender.com'
 
 const Register = () => {
   const navigate = useNavigate()

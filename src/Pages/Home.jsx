@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import products from '../Data/products'
 import { useState } from 'react'
 
-const API_URL = 'http://localhost:5000'
+const API_URL = 'https://victorian-luxuries-backend.onrender.com'
 
 const collections = [
   { name: "Men's Watches", category: "mens", image: "/src/assets/images/watches/mens/mens-1.jpg" },

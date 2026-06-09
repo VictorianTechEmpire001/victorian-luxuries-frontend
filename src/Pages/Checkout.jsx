@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { useCart } from '../Context/CartContext'
 
-const API_URL = 'http://localhost:5000'
+const API_URL = 'https://victorian-luxuries-backend.onrender.com'
 
 const Checkout = () => {
   const { cartItems, total, clearCart } = useCart()

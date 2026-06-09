@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import contactBg from '../assets/images/watches/contact-bg.jpg'
 
-const API_URL = 'http://localhost:5000'
+const API_URL = 'https://victorian-luxuries-backend.onrender.com'
 const MAX_MESSAGE_LENGTH = 500
 
 const Contact = () => {

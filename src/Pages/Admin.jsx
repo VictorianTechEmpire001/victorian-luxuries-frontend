@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import { GiPocketWatch } from 'react-icons/gi'
 
-const API_URL = 'http://localhost:5000'
+const API_URL = 'https://victorian-luxuries-backend.onrender.com'
 const ADMIN_PASSWORD = 'Victor'
 const SESSION_DURATION = 24 * 60 * 60 * 1000
 const INACTIVITY_LIMIT = 30 * 60 * 1000

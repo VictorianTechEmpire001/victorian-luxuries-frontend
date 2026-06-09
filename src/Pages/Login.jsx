@@ -4,7 +4,7 @@ import { signInWithEmailAndPassword } from 'firebase/auth'
 import { auth } from '../Utils/firebase'
 import loginBg from '../assets/images/watches/hero.jpg'
 
-const API_URL = 'http://localhost:5000'
+const API_URL = 'https://victorian-luxuries-backend.onrender.com'
 
 const Login = ({ setUser }) => {
   const navigate = useNavigate()
